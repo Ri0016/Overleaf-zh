@@ -1,0 +1,20 @@
+# 其他工具
+
+这里介绍一些可以提高LaTeX写作效率的其他工具
+
+## mathpix
+
+可以很方便的将图片公式转成LaTex形式,手写笔记不太乱的话也是可以识别的.
+
+https://mathpix.com
+
+## xtable包
+
+在R中进行模拟时,将结果输出至LaTeX可以利用这个包中的xtable函数.
+
+https://cran.r-project.org/web/packages/xtable/index.html
+
+## LaTeX中合并单元格
+
+http://www.tablesgenerator.com/#
+

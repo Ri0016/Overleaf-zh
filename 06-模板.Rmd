@@ -1,0 +1,19 @@
+# 一些模板
+
+## 学位论文模板
+
+https://github.com/ustctug/awesome-latex-thesis
+
+
+
+## ElegantLaTeX
+
+https://github.com/ElegantLaTeX
+
+## beamer模板
+
+http://deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html
+
+https://www.namsu.de/latex/themes/outer.html
+
+
