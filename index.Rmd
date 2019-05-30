@@ -1,5 +1,5 @@
 --- 
-title: "Overleaf功能能介绍"
+title: "Overleaf功能介绍"
 author: "wang"
 date: "`r Sys.Date()`"
 documentclass: ctexbook
