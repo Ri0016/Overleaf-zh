@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.11.7)  30 MAY 2019 20:21
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.11.7)  30 MAY 2019 20:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1864,9 +1864,6 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 2.
-
-Underfull \vbox (badness 1286) has occurred while \output is active []
-
 [3
 
 ])
@@ -1936,33 +1933,33 @@ able
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
 
-Overfull \hbox (8.1981pt too wide) in paragraph at lines 201--203
+Overfull \hbox (8.1981pt too wide) in paragraph at lines 203--205
 []\TU/lmr/m/n/10.53937 LaTeX \TU/STSong(0)/m/n/10.53937 的 介 绍\TU/lmr/m/n/10.539
 37 : [][]$[][][][][] [] [] [] [][][][] [] [][][][] [] [][][][] [] [][] [] [][] 
 [] [][][][][][][][][][][][][][][][][][][][]$[][] 
  []
 
 
-LaTeX Warning: Reference `wind' on page ix undefined on input line 208.
+LaTeX Warning: Reference `wind' on page ix undefined on input line 210.
 
 LaTeX Font Info:    Font shape `TU/STFangsong(0)/m/n' will be
-(Font)              scaled to size 10.23074pt on input line 213.
+(Font)              scaled to size 10.23074pt on input line 215.
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.53937> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 214.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 216.
 
-Overfull \hbox (145.80048pt too wide) in paragraph at lines 241--241
+Overfull \hbox (145.80048pt too wide) in paragraph at lines 243--243
 []\TU/lmtt/m/n/10.53937 ## BLAS:   /Library/Frameworks/R.framework/Versions/3.6
 /Resources/lib/libRblas.0.dylib[] 
  []
 
-
-Overfull \hbox (145.80046pt too wide) in paragraph at lines 241--241
+[9]
+Overfull \hbox (145.80046pt too wide) in paragraph at lines 243--243
 []\TU/lmtt/m/n/10.53937 ## LAPACK: /Library/Frameworks/R.framework/Versions/3.6
 /Resources/lib/libRlapack.dylib[] 
  []
 
-[9]
-Overfull \hbox (46.20348pt too wide) in paragraph at lines 241--241
+
+Overfull \hbox (46.20348pt too wide) in paragraph at lines 243--243
 []\TU/lmtt/m/n/10.53937 ## [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-
 8/en_US.UTF-8[] 
  []
@@ -1993,17 +1990,23 @@ File: bookdown_files/figure-latex/hello-1.pdf Graphic file (type pdf)
 
 ]
 第五章
-[9] [10
 
-]
+Overfull \hbox (7.47133pt too wide) in paragraph at lines 461--461
+[]\TU/lmtt/m/n/10.53937 ## % latex table generated in R 3.6.0 by xtable 1.8-4 p
+ackage[] 
+ []
+
+[9] [10]
 第六章
 
-Underfull \hbox (badness 10000) in paragraph at lines 465--466
+Underfull \hbox (badness 10000) in paragraph at lines 484--485
 [][][]$[][][][] [] [] [] [][][][] [] [][][] [] [][] [] [][][][][][][][] [] [][]
 [][][][] [] [][][][][][][] [] [][][][][] [] [][] [] [][][][][] []
  []
 
-[11] [12
+[11
+
+] [12
 
 ]
 附录 A
@@ -2017,23 +2020,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 465--466
 
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 485.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 485.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 504.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 504.
 (./bookdown.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 485.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 485.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 504.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 504.
 Package rerunfilecheck Info: File `bookdown.out' has not changed.
-(rerunfilecheck)             Checksum: C42E2CCF5FA3FB1AE64D1A762FA031D5.
+(rerunfilecheck)             Checksum: 195429B79B75CA95C3D7EDAA7E7D2952.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 485.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 504.
  ) 
 Here is how much of TeX's memory you used:
- 31113 strings out of 492970
- 603413 string characters out of 6133938
- 682550 words of memory out of 5000000
- 34727 multiletter control sequences out of 15000+600000
+ 31106 strings out of 492970
+ 603330 string characters out of 6133938
+ 681774 words of memory out of 5000000
+ 34720 multiletter control sequences out of 15000+600000
  555237 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  53i,8n,126p,10434b,871s stack positions out of 5000i,500n,10000p,200000b,80000s

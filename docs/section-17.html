@@ -4,21 +4,21 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>作者简介 | Overleaf功能介绍</title>
-  <meta name="description" content="作者简介 | Overleaf功能介绍" />
+  <title>第 5 章 其他工具 | Overleaf功能介绍</title>
+  <meta name="description" content="第 5 章 其他工具 | Overleaf功能介绍" />
   <meta name="generator" content="bookdown 0.11 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="作者简介 | Overleaf功能介绍" />
+  <meta property="og:title" content="第 5 章 其他工具 | Overleaf功能介绍" />
   <meta property="og:type" content="book" />
   
   
-  <meta property="og:description" content="作者简介 | Overleaf功能介绍" />
+  <meta property="og:description" content="第 5 章 其他工具 | Overleaf功能介绍" />
   <meta name="github-repo" content="Ri0016/Overleaf-zh" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="作者简介 | Overleaf功能介绍" />
+  <meta name="twitter:title" content="第 5 章 其他工具 | Overleaf功能介绍" />
   
-  <meta name="twitter:description" content="作者简介 | Overleaf功能介绍" />
+  <meta name="twitter:description" content="第 5 章 其他工具 | Overleaf功能介绍" />
   
 
 <meta name="author" content="wang" />
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="index.html">
-<link rel="next" href="intro.html">
+<link rel="prev" href="section-12.html">
+<link rel="next" href="section-18.html">
 <script src="libs/jquery/jquery.min.js"></script>
 <link href="libs/gitbook/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook/css/plugin-table.css" rel="stylesheet" />
@@ -185,19 +185,47 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="author" class="section level1 unnumbered">
-<h1>作者简介</h1>
-<p>上不了厅堂，下得了厨房。敲得了代码，逮得住蟑螂。</p>
+<div id="section-17" class="section level1">
+<h1><span class="header-section-number">第 5 章</span> 其他工具</h1>
+<p>这里介绍一些可以提高LaTeX写作效率的其他工具</p>
+<div id="mathpix" class="section level2">
+<h2><span class="header-section-number">5.1</span> mathpix</h2>
+<p>可以很方便的将图片公式转成LaTex形式,手写笔记不太乱的话也是可以识别的.</p>
+<p><a href="https://mathpix.com" class="uri">https://mathpix.com</a></p>
+</div>
+<div id="xtable" class="section level2">
+<h2><span class="header-section-number">5.2</span> xtable包</h2>
+<p>在R中进行模拟时,将结果输出至LaTeX可以利用这个包中的xtable函数.</p>
+<p><a href="https://cran.r-project.org/web/packages/xtable/index.html" class="uri">https://cran.r-project.org/web/packages/xtable/index.html</a></p>
+<pre class="sourceCode r"><code class="sourceCode r">xtable<span class="op">::</span><span class="kw">xtable</span>(<span class="kw">matrix</span>(<span class="kw">rnorm</span>(<span class="dv">12</span>),<span class="dv">3</span>,<span class="dv">4</span>))</code></pre>
+<pre><code>## % latex table generated in R 3.6.0 by xtable 1.8-4 package
+## % Thu May 30 20:47:55 2019
+## \begin{table}[ht]
+## \centering
+## \begin{tabular}{rrrrr}
+##   \hline
+##  &amp; 1 &amp; 2 &amp; 3 &amp; 4 \\ 
+##   \hline
+## 1 &amp; -0.47 &amp; 0.46 &amp; -0.62 &amp; -0.31 \\ 
+##   2 &amp; -0.14 &amp; 0.14 &amp; -0.38 &amp; 0.50 \\ 
+##   3 &amp; -1.22 &amp; -0.95 &amp; 0.83 &amp; -0.77 \\ 
+##    \hline
+## \end{tabular}
+## \end{table}</code></pre>
+</div>
+<div id="latex" class="section level2">
+<h2><span class="header-section-number">5.3</span> LaTeX中合并单元格</h2>
+<p><a href="http://www.tablesgenerator.com/#" class="uri">http://www.tablesgenerator.com/#</a></p>
 
-
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="intro.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="section-12.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="section-18.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook/js/app.min.js"></script>
@@ -227,7 +255,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/Ri0016/Overleaf-zh/edit/master/00-author.Rmd",
+"link": "https://github.com/Ri0016/Overleaf-zh/edit/master/05-其他工具.Rmd",
 "text": "编辑"
 },
 "history": {

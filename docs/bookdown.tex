@@ -193,6 +193,8 @@
 
 Overleaf是什么
 
+\url{https://www.overleaf.com/}
+
 简单讲,Overleaf是一个在线的LaTeX环境.
 不需要在自己电脑上安装,通过网页访问即可编写LaTeX.
 
@@ -237,7 +239,7 @@ LaTeX的介绍:
 ##  [7] yaml_2.2.0      Rcpp_1.0.1      stringi_1.4.3  
 ## [10] rmarkdown_1.13  highr_0.8       knitr_1.23     
 ## [13] stringr_1.4.0   xfun_0.7        digest_0.6.18  
-## [16] evaluate_0.14
+## [16] xtable_1.8-4    evaluate_0.14
 \end{verbatim}
 
 \hypertarget{section-1}{%
@@ -336,8 +338,7 @@ Sepal.Length & Sepal.Width & Petal.Length & Petal.Width & Species\\
 \hypertarget{section-10}{%
 \section{参考文献整合}\label{section-10}}
 
-\hypertarget{section-11}{%
-\section{张老爷子}\label{section-11}}
+张老爷子
 
 话说张老爷子写了一首诗：
 
@@ -346,8 +347,7 @@ Sepal.Length & Sepal.Width & Petal.Length & Petal.Width & Species\\
 红豆江南留梦影，白苹风末唱秋词。
 \end{quote}
 
-\hypertarget{section-12}{%
-\section{彭大将领}\label{section-12}}
+彭大将领
 
 貌似大家都喜欢用白萍风这个意境。又如彭玉麟的对联：
 
@@ -358,13 +358,12 @@ Sepal.Length & Sepal.Width & Petal.Length & Petal.Width & Species\\
 
 嘿，玛尼玛尼哄。
 
-\hypertarget{section-13}{%
-\chapter{订阅费用}\label{section-13}}
+\hypertarget{section-11}{%
+\chapter{订阅费用}\label{section-11}}
 
 \url{https://www.overleaf.com/user/subscription/plans}
 
-\hypertarget{section-14}{%
-\section{张老爷子}\label{section-14}}
+张老爷子
 
 话说张老爷子写了一首诗：
 
@@ -372,36 +371,34 @@ Sepal.Length & Sepal.Width & Petal.Length & Petal.Width & Species\\
 姑苏开遍碧桃时，邂逅河阳女画师。\\
 红豆江南留梦影，白苹风末唱秋词。
 \end{quote}
+
+彭大将领
+
+貌似大家都喜欢用白萍风这个意境。又如彭玉麟的对联：
+
+\begin{quote}
+凭栏看云影波光，最好是红蓼花疏、白苹秋老；\\
+把酒对琼楼玉宇，莫孤负天心月到、水面风来。
+\end{quote}
+
+嘿，玛尼玛尼哄。
+
+\hypertarget{section-12}{%
+\chapter{特色功能展示}\label{section-12}}
+
+\hypertarget{section-13}{%
+\section{本地和服务器同步}\label{section-13}}
+
+\hypertarget{section-14}{%
+\section{合作编辑}\label{section-14}}
 
 \hypertarget{section-15}{%
-\section{彭大将领}\label{section-15}}
-
-貌似大家都喜欢用白萍风这个意境。又如彭玉麟的对联：
-
-\begin{quote}
-凭栏看云影波光，最好是红蓼花疏、白苹秋老；\\
-把酒对琼楼玉宇，莫孤负天心月到、水面风来。
-\end{quote}
-
-嘿，玛尼玛尼哄。
+\section{历史版本}\label{section-15}}
 
 \hypertarget{section-16}{%
-\chapter{特色功能展示}\label{section-16}}
+\section{参考文献整合}\label{section-16}}
 
-\hypertarget{section-17}{%
-\section{本地和服务器同步}\label{section-17}}
-
-\hypertarget{section-18}{%
-\section{合作编辑}\label{section-18}}
-
-\hypertarget{section-19}{%
-\section{历史版本}\label{section-19}}
-
-\hypertarget{section-20}{%
-\section{参考文献整合}\label{section-20}}
-
-\hypertarget{section-21}{%
-\section{张老爷子}\label{section-21}}
+张老爷子
 
 话说张老爷子写了一首诗：
 
@@ -410,8 +407,7 @@ Sepal.Length & Sepal.Width & Petal.Length & Petal.Width & Species\\
 红豆江南留梦影，白苹风末唱秋词。
 \end{quote}
 
-\hypertarget{section-22}{%
-\section{彭大将领}\label{section-22}}
+彭大将领
 
 貌似大家都喜欢用白萍风这个意境。又如彭玉麟的对联：
 
@@ -422,8 +418,8 @@ Sepal.Length & Sepal.Width & Petal.Length & Petal.Width & Species\\
 
 嘿，玛尼玛尼哄。
 
-\hypertarget{section-23}{%
-\chapter{其他工具}\label{section-23}}
+\hypertarget{section-17}{%
+\chapter{其他工具}\label{section-17}}
 
 这里介绍一些可以提高LaTeX写作效率的其他工具
 
@@ -441,16 +437,39 @@ Sepal.Length & Sepal.Width & Petal.Length & Petal.Width & Species\\
 
 \url{https://cran.r-project.org/web/packages/xtable/index.html}
 
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{xtable}\OperatorTok{::}\KeywordTok{xtable}\NormalTok{(}\KeywordTok{matrix}\NormalTok{(}\KeywordTok{rnorm}\NormalTok{(}\DecValTok{12}\NormalTok{),}\DecValTok{3}\NormalTok{,}\DecValTok{4}\NormalTok{))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## % latex table generated in R 3.6.0 by xtable 1.8-4 package
+## % Thu May 30 20:47:55 2019
+## \begin{table}[ht]
+## \centering
+## \begin{tabular}{rrrrr}
+##   \hline
+##  & 1 & 2 & 3 & 4 \\ 
+##   \hline
+## 1 & 0.21 & 0.20 & 1.08 & -1.10 \\ 
+##   2 & -1.09 & -0.79 & 0.46 & 2.05 \\ 
+##   3 & 1.97 & -1.36 & -0.87 & -0.94 \\ 
+##    \hline
+## \end{tabular}
+## \end{table}
+\end{verbatim}
+
 \hypertarget{latex}{%
 \section{LaTeX中合并单元格}\label{latex}}
 
 \url{http://www.tablesgenerator.com/\#}
 
-\hypertarget{section-24}{%
-\chapter{一些模板}\label{section-24}}
+\hypertarget{section-18}{%
+\chapter{一些模板}\label{section-18}}
 
-\hypertarget{section-25}{%
-\section{学位论文模板}\label{section-25}}
+\hypertarget{section-19}{%
+\section{学位论文模板}\label{section-19}}
 
 \url{https://github.com/ustctug/awesome-latex-thesis}
 
