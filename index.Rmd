@@ -11,8 +11,8 @@ lot: yes
 lof: yes
 geometry: [b5paper, tmargin=2.5cm, bmargin=2.5cm, lmargin=3.5cm, rmargin=2.5cm]
 site: bookdown::bookdown_site
-description: "一个简单的中文书示例。"
-github-repo: yihui/bookdown-chinese
+description: "Overleaf功能介绍"
+github-repo: Ri0016/Overleaf-zh
 #cover-image: images/cover.jpg
 ---
 
@@ -31,8 +31,20 @@ lapply(c(), function(pkg) {
 
 Overleaf是什么
 
-LaTeX的介绍
+简单讲,Overleaf是一个在线的LaTeX环境.
+不需要在自己电脑上安装,通过网页访问即可编写LaTeX.
+
+
+如果还不了解LaTeX,可以先阅读下面的链接:
+
+LaTeX的介绍:
 https://liam.page/2014/09/08/latex-introduction/
+
+
+当然,Overleaf提供的服务远不止此.
+
+借助Overleaf,可以实现多人合作编辑,无缝同步进度,追踪文件修改历史.
+
 
 
 你好，世界。我写了一本书。这本书是这样的，第 \@ref(intro) 章介绍了啥啥，第 \@ref(wind) 章说了啥啥，然后是啥啥……
