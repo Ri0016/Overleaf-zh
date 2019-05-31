@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.11.7)  30 MAY 2019 20:48
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.11.7)  31 MAY 2019 15:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1990,16 +1990,16 @@ File: bookdown_files/figure-latex/hello-1.pdf Graphic file (type pdf)
 
 ]
 第五章
-
-Overfull \hbox (7.47133pt too wide) in paragraph at lines 461--461
+[9]
+Overfull \hbox (7.47133pt too wide) in paragraph at lines 473--473
 []\TU/lmtt/m/n/10.53937 ## % latex table generated in R 3.6.0 by xtable 1.8-4 p
 ackage[] 
  []
 
-[9] [10]
+[10]
 第六章
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--485
+Underfull \hbox (badness 10000) in paragraph at lines 496--497
 [][][]$[][][][] [] [] [] [][][][] [] [][][] [] [][] [] [][][][][][][][] [] [][]
 [][][][] [] [][][][][][][] [] [][][][][] [] [][] [] [][][][][] []
  []
@@ -2020,24 +2020,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 484--485
 
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 504.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 504.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 516.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 516.
 (./bookdown.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 504.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 504.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 516.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 516.
 Package rerunfilecheck Info: File `bookdown.out' has not changed.
-(rerunfilecheck)             Checksum: 195429B79B75CA95C3D7EDAA7E7D2952.
+(rerunfilecheck)             Checksum: 50040C4D9C5148A5B94EE74AD8D17D9A.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 504.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 516.
  ) 
 Here is how much of TeX's memory you used:
- 31106 strings out of 492970
- 603330 string characters out of 6133938
- 681774 words of memory out of 5000000
- 34720 multiletter control sequences out of 15000+600000
- 555237 words of font info for 81 fonts, out of 8000000 for 9000
+ 31116 strings out of 492970
+ 603544 string characters out of 6133938
+ 682083 words of memory out of 5000000
+ 34728 multiletter control sequences out of 15000+600000
+ 555253 words of font info for 83 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  53i,8n,126p,10434b,871s stack positions out of 5000i,500n,10000p,200000b,80000s
 
