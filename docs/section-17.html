@@ -153,17 +153,17 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="4.4" data-path="section-12.html"><a href="section-12.html#section-16"><i class="fa fa-check"></i><b>4.4</b> 参考文献整合</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="section-17.html"><a href="section-17.html"><i class="fa fa-check"></i><b>5</b> 其他工具</a><ul>
-<li class="chapter" data-level="5.1" data-path="section-17.html"><a href="section-17.html#section-18"><i class="fa fa-check"></i><b>5.1</b> 输入公式</a></li>
-<li class="chapter" data-level="5.2" data-path="section-17.html"><a href="section-17.html#section-19"><i class="fa fa-check"></i><b>5.2</b> 输入表格</a><ul>
-<li class="chapter" data-level="5.2.1" data-path="section-17.html"><a href="section-17.html#excel2latex"><i class="fa fa-check"></i><b>5.2.1</b> Excel2LaTeX</a></li>
-<li class="chapter" data-level="5.2.2" data-path="section-17.html"><a href="section-17.html#xtable"><i class="fa fa-check"></i><b>5.2.2</b> xtable包</a></li>
+<li class="chapter" data-level="5.1" data-path="section-17.html"><a href="section-17.html#section-18"><i class="fa fa-check"></i><b>5.1</b> 公式</a></li>
+<li class="chapter" data-level="5.2" data-path="section-17.html"><a href="section-17.html#section-19"><i class="fa fa-check"></i><b>5.2</b> 表格</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="section-17.html"><a href="section-17.html#xtable"><i class="fa fa-check"></i><b>5.2.1</b> xtable包</a></li>
+<li class="chapter" data-level="5.2.2" data-path="section-17.html"><a href="section-17.html#excel2latex"><i class="fa fa-check"></i><b>5.2.2</b> Excel2LaTeX</a></li>
+<li class="chapter" data-level="5.2.3" data-path="section-17.html"><a href="section-17.html#latex"><i class="fa fa-check"></i><b>5.2.3</b> LaTeX中合并单元格</a></li>
 </ul></li>
-<li class="chapter" data-level="5.3" data-path="section-17.html"><a href="section-17.html#latex"><i class="fa fa-check"></i><b>5.3</b> LaTeX中合并单元格</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="section-20.html"><a href="section-20.html"><i class="fa fa-check"></i><b>6</b> 一些模板</a><ul>
 <li class="chapter" data-level="6.1" data-path="section-20.html"><a href="section-20.html#section-21"><i class="fa fa-check"></i><b>6.1</b> 学位论文模板</a></li>
 <li class="chapter" data-level="6.2" data-path="section-20.html"><a href="section-20.html#elegantlatex"><i class="fa fa-check"></i><b>6.2</b> ElegantLaTeX</a></li>
-<li class="chapter" data-level="6.3" data-path="section-20.html"><a href="section-20.html#beamer"><i class="fa fa-check"></i><b>6.3</b> beamer模板</a></li>
+<li class="chapter" data-level="6.3" data-path="section-20.html"><a href="section-20.html#beamer"><i class="fa fa-check"></i><b>6.3</b> beamer主题</a></li>
 </ul></li>
 <li class="appendix"><span><b>附录</b></span></li>
 <li class="chapter" data-level="A" data-path="sound.html"><a href="sound.html"><i class="fa fa-check"></i><b>A</b> 余音绕梁</a></li>
@@ -192,43 +192,45 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h1><span class="header-section-number">第 5 章</span> 其他工具</h1>
 <p>这里介绍一些可以提高LaTeX写作效率的其他工具</p>
 <div id="section-18" class="section level2">
-<h2><span class="header-section-number">5.1</span> 输入公式</h2>
+<h2><span class="header-section-number">5.1</span> 公式</h2>
 <p>mathpix</p>
 <p>可以很方便的将图片公式转成LaTex形式,手写笔记不太乱的话也是可以识别的.</p>
 <p><a href="https://mathpix.com" class="uri">https://mathpix.com</a></p>
 </div>
 <div id="section-19" class="section level2">
-<h2><span class="header-section-number">5.2</span> 输入表格</h2>
-<div id="excel2latex" class="section level3">
-<h3><span class="header-section-number">5.2.1</span> Excel2LaTeX</h3>
-<p>可以在Excel中合并好单元格,导出tex的表格.</p>
-<p><a href="https://github.com/krlmlr/Excel2LaTeX/releases" class="uri">https://github.com/krlmlr/Excel2LaTeX/releases</a></p>
-</div>
+<h2><span class="header-section-number">5.2</span> 表格</h2>
+<p>在LaTeX中插入表格并不是很简单的一件事,尤其是当表头需要合并单元格时.
+这里介绍一些可以提高输入表格效率的工具.</p>
 <div id="xtable" class="section level3">
-<h3><span class="header-section-number">5.2.2</span> xtable包</h3>
+<h3><span class="header-section-number">5.2.1</span> xtable包</h3>
 <p>在R中进行模拟时,将结果输出至LaTeX可以利用这个包中的xtable函数.</p>
 <p><a href="https://cran.r-project.org/web/packages/xtable/index.html" class="uri">https://cran.r-project.org/web/packages/xtable/index.html</a></p>
 <pre class="sourceCode r"><code class="sourceCode r">xtable<span class="op">::</span><span class="kw">xtable</span>(<span class="kw">matrix</span>(<span class="kw">rnorm</span>(<span class="dv">12</span>),<span class="dv">3</span>,<span class="dv">4</span>))</code></pre>
 <pre><code>## % latex table generated in R 3.6.0 by xtable 1.8-4 package
-## % Fri May 31 15:57:38 2019
+## % Fri May 31 16:06:28 2019
 ## \begin{table}[ht]
 ## \centering
 ## \begin{tabular}{rrrrr}
 ##   \hline
 ##  &amp; 1 &amp; 2 &amp; 3 &amp; 4 \\ 
 ##   \hline
-## 1 &amp; 0.51 &amp; 0.46 &amp; 0.77 &amp; -0.50 \\ 
-##   2 &amp; -0.48 &amp; -0.15 &amp; -2.37 &amp; -0.08 \\ 
-##   3 &amp; -1.85 &amp; -0.29 &amp; -0.52 &amp; -0.60 \\ 
+## 1 &amp; -1.04 &amp; -0.63 &amp; 0.35 &amp; -2.31 \\ 
+##   2 &amp; -1.01 &amp; -1.14 &amp; -1.10 &amp; 0.97 \\ 
+##   3 &amp; 0.16 &amp; 0.55 &amp; -0.27 &amp; -0.36 \\ 
 ##    \hline
 ## \end{tabular}
 ## \end{table}</code></pre>
 </div>
+<div id="excel2latex" class="section level3">
+<h3><span class="header-section-number">5.2.2</span> Excel2LaTeX</h3>
+<p>可以在Excel中合并好单元格,导出tex的表格.</p>
+<p><a href="https://github.com/krlmlr/Excel2LaTeX/releases" class="uri">https://github.com/krlmlr/Excel2LaTeX/releases</a></p>
 </div>
-<div id="latex" class="section level2">
-<h2><span class="header-section-number">5.3</span> LaTeX中合并单元格</h2>
+<div id="latex" class="section level3">
+<h3><span class="header-section-number">5.2.3</span> LaTeX中合并单元格</h3>
 <p><a href="http://www.tablesgenerator.com/#" class="uri">http://www.tablesgenerator.com/#</a></p>
 
+</div>
 </div>
 </div>
             </section>

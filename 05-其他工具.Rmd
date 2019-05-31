@@ -2,20 +2,17 @@
 
 这里介绍一些可以提高LaTeX写作效率的其他工具
 
-## 输入公式
+## 公式
 mathpix
 
 可以很方便的将图片公式转成LaTex形式,手写笔记不太乱的话也是可以识别的.
 
 https://mathpix.com
 
-## 输入表格
+## 表格
 
-### Excel2LaTeX
-
-可以在Excel中合并好单元格,导出tex的表格.
-
-https://github.com/krlmlr/Excel2LaTeX/releases
+在LaTeX中插入表格并不是很简单的一件事,尤其是当表头需要合并单元格时.
+这里介绍一些可以提高输入表格效率的工具.
 
 ### xtable包
 
@@ -27,8 +24,13 @@ https://cran.r-project.org/web/packages/xtable/index.html
 xtable::xtable(matrix(rnorm(12),3,4))
 ```
 
+### Excel2LaTeX
 
-## LaTeX中合并单元格
+可以在Excel中合并好单元格,导出tex的表格.
+
+https://github.com/krlmlr/Excel2LaTeX/releases
+
+### LaTeX中合并单元格
 
 http://www.tablesgenerator.com/#
 
