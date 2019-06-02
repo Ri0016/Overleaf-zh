@@ -28,9 +28,9 @@ xtable::xtable(matrix(rnorm(12),3,4))
 
 但是,这还不够.每次都要复制粘贴仍然很麻烦,而且如果表格的行名、列名有特定的格式,并不能直接粘贴结果(macOS下可以支持选择矩形区域修改).
 
-我们可以利用LaTeX的"\input"指令,完成更酷的操作.
+我们可以利用LaTeX的\\input{}指令,完成更酷的操作.
 
-大致流程就是在R中将xtable的输出结果写入文本文件"tableXXXX.tex",然后在tex中需要插入表格的地方"\input"{tableXXXX.tex}.
+大致流程就是在R中将xtable的输出结果写入文本文件"tableXXXX.tex",然后在tex中需要插入表格的地方\\input{tableXXXX.tex}.
 
 这样我们每次要把R新计算出来的表格更新到tex中,只需要重新编译一次即可.
 
@@ -41,18 +41,18 @@ https://stackoverflow.com/questions/15036754/r-package-xtable-how-to-create-a-la
 比如这样:
 
 ```{r}
+#https://stackoverflow.com/questions/15036754/r-package-xtable-how-to-create-a-latextable-with-multiple-rows-and-columns-from
+
+#setwd()
+
 library(xtable)
 
 C = (rep(0:5,2))
 n = rep(c(200,300),each=6)
 
-tau =paste("\\tau=",(rep(c(.25,.5,.75),2)))
-
-
 data = matrix(runif(6*12),12,6)
 data = round(data,3)
 df =data.frame(c(replicate(6,"200"),replicate(6,"300")),C,cbind(data[,1:3],rep("",12),data[,4:6]))
-
 # only needed if first column consists of numbers
 df[[1]] <- as.character(df[[1]])
 rle.lengths <- rle(df[[1]])$lengths
@@ -75,14 +75,15 @@ xtable(df,digits = c(0,0,0,rep(2,3),0,rep(2,3))
        floating=TRUE # whether \begin{Table} should be created (TRUE) or not (FALSE)
 ) -> outtable
 
-#
-print(outtable,
+#cat(
+  print(outtable,
           hline.after = c(-1,0,nrow(outtable),nrow(outtable)-6),
           #booktabs = TRUE,
           sanitize.text.function = force # Important to treat content of first column as latex function
           ,caption.placement = "top" #"top", NULL
-          ,type = "latex"
           ,add.to.row = addtorow,include.colnames = FALSE,include.rownames = FALSE)
+    #,file = "table.tex")
+
 
 ```
 

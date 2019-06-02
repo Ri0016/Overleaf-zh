@@ -5,30 +5,30 @@
 
 ## 创建项目
 
-空白文档
-GitHub
-...
+登陆后,在左上角可以看到创建新项目
+https://cn.overleaf.com/project
+
+出了空白项目和上传项目之外,Overleaf有丰富的模板资源:
+https://cn.overleaf.com/latex/templates
+
+另外,还支持从GitHub导入模板.
 
 ## 个人写作
 
+项目建好后,界面和其他的tex客户端几乎没有区别.
+左侧是tex的源文件,右侧是生成的pdf文件.
+
+
+
+
 ## 邀请合作者
 
+右上角可以看到一个 共享 的功能,点击可以通过链接分享项或者通过账号邀请(免费用户只有1个合作者限制).
+
+接下来就可以一起编写文章.
 
 ## 论文投递
 
+论文写完后,右上角有 submit 功能,可以直接提交到期刊(现在已接入的较少).
 
-现在我们可以试试 **bookdown** 的一些初级功能了，例如图表。图 \@ref(fig:hello) 是一幅无趣的散点图，表 \@ref(tab:iris) 是一份枯燥的数据。
 
-```{r hello, fig.cap='雷猴啊，散点图！', out.width='90%'}
-par(mar = c(4, 4, 1, .1))
-plot(cars, pch = 19)
-```
-
-```{r iris}
-knitr::kable(
-  head(iris), caption = '雷猴啊，iris 数据！',
-  booktabs = TRUE
-)
-```
-
-就这样，你可以一直编下去，直到编不下去。

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.11.7)  1 JUN 2019 19:08
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.11.7)  2 JUN 2019 22:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1947,19 +1947,19 @@ LaTeX Font Info:    Font shape `TU/STFangsong(0)/m/n' will be
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.53937> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 216.
 
-Overfull \hbox (145.80048pt too wide) in paragraph at lines 246--246
+Overfull \hbox (145.80048pt too wide) in paragraph at lines 245--245
 []\TU/lmtt/m/n/10.53937 ## BLAS:   /Library/Frameworks/R.framework/Versions/3.6
 /Resources/lib/libRblas.0.dylib[] 
  []
 
 [9]
-Overfull \hbox (145.80046pt too wide) in paragraph at lines 246--246
+Overfull \hbox (145.80046pt too wide) in paragraph at lines 245--245
 []\TU/lmtt/m/n/10.53937 ## LAPACK: /Library/Frameworks/R.framework/Versions/3.6
 /Resources/lib/libRlapack.dylib[] 
  []
 
 
-Overfull \hbox (46.20348pt too wide) in paragraph at lines 246--246
+Overfull \hbox (46.20348pt too wide) in paragraph at lines 245--245
 []\TU/lmtt/m/n/10.53937 ## [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-
 8/en_US.UTF-8[] 
  []
@@ -1970,8 +1970,6 @@ Overfull \hbox (46.20348pt too wide) in paragraph at lines 246--246
 
 ]
 第一章
-File: bookdown_files/figure-latex/hello-1.pdf Graphic file (type pdf)
-<use bookdown_files/figure-latex/hello-1.pdf>
 [1
 
 ] [2]
@@ -1991,20 +1989,20 @@ File: bookdown_files/figure-latex/hello-1.pdf Graphic file (type pdf)
 ]
 第五章
 [9]
-Overfull \hbox (7.47133pt too wide) in paragraph at lines 472--472
+Overfull \hbox (7.47133pt too wide) in paragraph at lines 380--380
 []\TU/lmtt/m/n/10.53937 ## % latex table generated in R 3.6.0 by xtable 1.8-4 p
 ackage[] 
  []
 
 
-Overfull \hbox (11.73863pt too wide) in paragraph at lines 480--481
+Overfull \hbox (11.73863pt too wide) in paragraph at lines 388--389
 []\TU/STSong(0)/m/n/10.53937 大 致 流 程 就 是 在 \TU/lmr/m/n/10.53937 R \TU/STSong(0)
 /m/n/10.53937 中 将 \TU/lmr/m/n/10.53937 xtable \TU/STSong(0)/m/n/10.53937 的 输 出 
 结 果 写 入 文 本 文 件 \TU/lmr/m/n/10.53937 “tableXXXX.tex”,
  []
 
 
-Overfull \hbox (362.56143pt too wide) in paragraph at lines 486--487
+Overfull \hbox (362.56143pt too wide) in paragraph at lines 394--395
 [][][]$[][][][][] [] [] [] [][][][][][][][][][][][][] [] [][][] [] [][][][][][]
 [][][] [] [][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
@@ -2012,102 +2010,102 @@ Overfull \hbox (362.56143pt too wide) in paragraph at lines 486--487
  []
 
 [10]
-Underfull \vbox (badness 10000) detected at line 535
+Underfull \vbox (badness 10000) detected at line 442
  []
 
 
-Underfull \vbox (badness 10000) detected at line 535
+Underfull \vbox (badness 10000) detected at line 442
  []
 
 [11]
-Overfull \hbox (7.47133pt too wide) in paragraph at lines 565--565
+Overfull \hbox (7.47133pt too wide) in paragraph at lines 472--472
 []\TU/lmtt/m/n/10.53937 ## % latex table generated in R 3.6.0 by xtable 1.8-4 p
 ackage[] 
  []
 
 
-Overfull \hbox (439.05847pt too wide) in paragraph at lines 565--565
+Overfull \hbox (439.05847pt too wide) in paragraph at lines 472--472
 []\TU/lmtt/m/n/10.53937 ##   \multirow{2}*{$n$} &\multirow{2}*{$C$}& \multicolu
 mn{3}{c}{The homoscedastic cases}&& \multicolumn{3}{c}{The heteroscedastic case
 s} \\[] 
  []
 
 
-Overfull \hbox (350.52783pt too wide) in paragraph at lines 565--565
+Overfull \hbox (350.52783pt too wide) in paragraph at lines 472--472
 []\TU/lmtt/m/n/10.53937 ##      \cline{3-5}     \cline{7-9}  && $\tau=0.25$ & $
 \tau=0.5$ & $\tau=0.75$ && $\tau=0.25$ & $\tau=0.5$ & $\tau=0.75$ \\[] 
  []
 
 
-Overfull \hbox (123.66797pt too wide) in paragraph at lines 565--565
-[]\TU/lmtt/m/n/10.53937 ## \multirow{6}{*}{{200}} & 0 & 0.297 & 0.305 & 0.513 &
-  & 0.581 & 0.394 & 0.98 \\[] 
+Overfull \hbox (129.20114pt too wide) in paragraph at lines 472--472
+[]\TU/lmtt/m/n/10.53937 ## \multirow{6}{*}{{200}} & 0 & 0.004 & 0.732 & 0.501 &
+  & 0.391 & 0.285 & 0.876 \\[] 
  []
 
 
-Overfull \hbox (13.00461pt too wide) in paragraph at lines 565--565
-[]\TU/lmtt/m/n/10.53937 ##    & 1 & 0.851 & 0.564 & 0.98 &  & 0.692 & 0.174 & 0
-.299 \\[] 
+Overfull \hbox (18.53778pt too wide) in paragraph at lines 472--472
+[]\TU/lmtt/m/n/10.53937 ##    & 1 & 0.771 & 0.837 & 0.322 &  & 0.329 & 0.862 & 
+0.379 \\[] 
  []
 
 
-Overfull \hbox (18.53778pt too wide) in paragraph at lines 565--565
-[]\TU/lmtt/m/n/10.53937 ##    & 2 & 0.839 & 0.488 & 0.031 &  & 0.333 & 0.192 & 
-0.374 \\[] 
+Overfull \hbox (13.00461pt too wide) in paragraph at lines 472--472
+[]\TU/lmtt/m/n/10.53937 ##    & 2 & 0.683 & 0.737 & 0.502 &  & 0.64 & 0.949 & 0
+.953 \\[] 
  []
 
 
-Overfull \hbox (13.00461pt too wide) in paragraph at lines 565--565
-[]\TU/lmtt/m/n/10.53937 ##    & 3 & 0.665 & 0.618 & 0.522 &  & 0.522 & 0.446 & 
-0.81 \\[] 
+Overfull \hbox (18.53778pt too wide) in paragraph at lines 472--472
+[]\TU/lmtt/m/n/10.53937 ##    & 3 & 0.527 & 0.384 & 0.068 &  & 0.623 & 0.644 & 
+0.644 \\[] 
  []
 
 
-Overfull \hbox (18.53778pt too wide) in paragraph at lines 565--565
-[]\TU/lmtt/m/n/10.53937 ##    & 4 & 0.947 & 0.021 & 0.465 &  & 0.154 & 0.828 & 
-0.369 \\[] 
+Overfull \hbox (18.53778pt too wide) in paragraph at lines 472--472
+[]\TU/lmtt/m/n/10.53937 ##    & 4 & 0.911 & 0.961 & 0.444 &  & 0.692 & 0.706 & 
+0.781 \\[] 
  []
 
 
-Overfull \hbox (18.53778pt too wide) in paragraph at lines 565--565
-[]\TU/lmtt/m/n/10.53937 ##    & 5 & 0.828 & 0.046 & 0.072 &  & 0.278 & 0.202 & 
-0.437 \\[] 
+Overfull \hbox (7.47144pt too wide) in paragraph at lines 472--472
+[]\TU/lmtt/m/n/10.53937 ##    & 5 & 0.775 & 0.693 & 0.83 &  & 0.484 & 0.531 & 0
+.59 \\[] 
  []
 
 
-Overfull \hbox (118.1348pt too wide) in paragraph at lines 565--565
-[]\TU/lmtt/m/n/10.53937 ## \multirow{6}{*}{{300}} & 0 & 0.297 & 0.124 & 0.2 &  
-& 0.956 & 0.231 & 0.835 \\[] 
+Overfull \hbox (123.66797pt too wide) in paragraph at lines 472--472
+[]\TU/lmtt/m/n/10.53937 ## \multirow{6}{*}{{300}} & 0 & 0.509 & 0.745 & 0.521 &
+  & 0.95 & 0.146 & 0.372 \\[] 
  []
 
 
-Overfull \hbox (18.53778pt too wide) in paragraph at lines 565--565
-[]\TU/lmtt/m/n/10.53937 ##    & 1 & 0.881 & 0.139 & 0.049 &  & 0.146 & 0.127 & 
-0.368 \\[] 
+Overfull \hbox (18.53778pt too wide) in paragraph at lines 472--472
+[]\TU/lmtt/m/n/10.53937 ##    & 1 & 0.234 & 0.245 & 0.189 &  & 0.024 & 0.758 & 
+0.173 \\[] 
  []
 
 
-Overfull \hbox (18.53778pt too wide) in paragraph at lines 565--565
-[]\TU/lmtt/m/n/10.53937 ##    & 2 & 0.592 & 0.321 & 0.958 &  & 0.014 & 0.494 & 
-0.032 \\[] 
+Overfull \hbox (13.00461pt too wide) in paragraph at lines 472--472
+[]\TU/lmtt/m/n/10.53937 ##    & 2 & 0.303 & 0.827 & 0.599 &  & 0.23 & 0.797 & 0
+.859 \\[] 
  []
 
 
-Overfull \hbox (1.93826pt too wide) in paragraph at lines 565--565
-[]\TU/lmtt/m/n/10.53937 ##    & 3 & 0.23 & 0.549 & 0.088 &  & 0.24 & 0.455 & 0.
-39 \\[] 
+Overfull \hbox (13.00461pt too wide) in paragraph at lines 472--472
+[]\TU/lmtt/m/n/10.53937 ##    & 3 & 0.066 & 0.76 & 0.071 &  & 0.814 & 0.056 & 0
+.868 \\[] 
  []
 
 
-Overfull \hbox (13.00461pt too wide) in paragraph at lines 565--565
-[]\TU/lmtt/m/n/10.53937 ##    & 4 & 0.49 & 0.473 & 0.266 &  & 0.291 & 0.001 & 0
-.802 \\[] 
+Overfull \hbox (18.53778pt too wide) in paragraph at lines 472--472
+[]\TU/lmtt/m/n/10.53937 ##    & 4 & 0.654 & 0.096 & 0.668 &  & 0.184 & 0.139 & 
+0.684 \\[] 
  []
 
 
-Overfull \hbox (18.53778pt too wide) in paragraph at lines 565--565
-[]\TU/lmtt/m/n/10.53937 ##    & 5 & 0.702 & 0.523 & 0.951 &  & 0.339 & 0.741 & 
-0.254 \\[] 
+Overfull \hbox (18.53778pt too wide) in paragraph at lines 472--472
+[]\TU/lmtt/m/n/10.53937 ##    & 5 & 0.252 & 0.537 & 0.021 &  & 0.688 & 0.123 & 
+0.448 \\[] 
  []
 
 
@@ -2118,7 +2116,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 第六章
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
+Underfull \hbox (badness 10000) in paragraph at lines 510--511
 [][][]$[][][][] [] [] [] [][][][] [] [][][] [] [][] [] [][][][][][][][] [] [][]
 [][][][] [] [][][][][][][] [] [][][][][] [] [][] [] [][][][][] []
  []
@@ -2137,25 +2135,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 597--598
 
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 617.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 617.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 530.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 530.
 (./bookdown.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 617.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 617.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 530.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 530.
 Package rerunfilecheck Info: File `bookdown.out' has not changed.
-(rerunfilecheck)             Checksum: C09E4ADC863FD7419F8CF515F2331B73.
+(rerunfilecheck)             Checksum: E8278B0B3180EB0614AAC38C553F1317.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 617.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 530.
  ) 
 Here is how much of TeX's memory you used:
- 31120 strings out of 492970
- 603631 string characters out of 6133938
- 686060 words of memory out of 5000000
- 34730 multiletter control sequences out of 15000+600000
+ 31089 strings out of 492970
+ 602053 string characters out of 6133938
+ 685677 words of memory out of 5000000
+ 34702 multiletter control sequences out of 15000+600000
  555261 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 53i,8n,126p,10434b,883s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,6n,126p,10434b,883s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on bookdown.pdf (33 pages).

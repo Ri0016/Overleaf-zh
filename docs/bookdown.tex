@@ -163,7 +163,7 @@
 
 \title{Overleaf功能介绍}
 \author{wang}
-\date{2019-06-01}
+\date{2019-06-02}
 
 \let\BeginKnitrBlock\begin \let\EndKnitrBlock\end
 \begin{document}
@@ -240,9 +240,8 @@ LaTeX的介绍:
 ##  [1] compiler_3.6.0  magrittr_1.5    bookdown_0.11  
 ##  [4] tools_3.6.0     htmltools_0.3.6 rstudioapi_0.10
 ##  [7] yaml_2.2.0      Rcpp_1.0.1      stringi_1.4.3  
-## [10] rmarkdown_1.13  highr_0.8       knitr_1.23     
-## [13] stringr_1.4.0   xfun_0.7        digest_0.6.18  
-## [16] evaluate_0.14
+## [10] rmarkdown_1.13  knitr_1.23      stringr_1.4.0  
+## [13] xfun_0.7        digest_0.6.18   evaluate_0.14
 \end{verbatim}
 
 \hypertarget{section-1}{%
@@ -270,61 +269,31 @@ LaTeX的介绍:
 \hypertarget{section-2}{%
 \section{创建项目}\label{section-2}}
 
-空白文档
-GitHub
-\ldots{}
+登陆后,在左上角可以看到创建新项目
+\url{https://cn.overleaf.com/project}
+
+出了空白项目和上传项目之外,Overleaf有丰富的模板资源:
+\url{https://cn.overleaf.com/latex/templates}
+
+另外,还支持从GitHub导入模板.
 
 \hypertarget{section-3}{%
 \section{个人写作}\label{section-3}}
 
+项目建好后,界面和其他的tex客户端几乎没有区别.
+左侧是tex的源文件,右侧是生成的pdf文件.
+
 \hypertarget{section-4}{%
 \section{邀请合作者}\label{section-4}}
+
+右上角可以看到一个 共享 的功能,点击可以通过链接分享项或者通过账号邀请(免费用户只有1个合作者限制).
+
+接下来就可以一起编写文章.
 
 \hypertarget{section-5}{%
 \section{论文投递}\label{section-5}}
 
-现在我们可以试试 \textbf{bookdown} 的一些初级功能了，例如图表。图 \ref{fig:hello} 是一幅无趣的散点图，表 \ref{tab:iris} 是一份枯燥的数据。
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\KeywordTok{par}\NormalTok{(}\DataTypeTok{mar =} \KeywordTok{c}\NormalTok{(}\DecValTok{4}\NormalTok{, }\DecValTok{4}\NormalTok{, }\DecValTok{1}\NormalTok{, }\FloatTok{.1}\NormalTok{))}
-\KeywordTok{plot}\NormalTok{(cars, }\DataTypeTok{pch =} \DecValTok{19}\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{figure}
-\includegraphics[width=0.9\linewidth]{bookdown_files/figure-latex/hello-1} \caption{雷猴啊，散点图！}\label{fig:hello}
-\end{figure}
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{knitr}\OperatorTok{::}\KeywordTok{kable}\NormalTok{(}
-  \KeywordTok{head}\NormalTok{(iris), }\DataTypeTok{caption =} \StringTok{'雷猴啊，iris 数据！'}\NormalTok{,}
-  \DataTypeTok{booktabs =} \OtherTok{TRUE}
-\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{table}[t]
-
-\caption{\label{tab:iris}雷猴啊，iris 数据！}
-\centering
-\begin{tabular}{rrrrl}
-\toprule
-Sepal.Length & Sepal.Width & Petal.Length & Petal.Width & Species\\
-\midrule
-5.1 & 3.5 & 1.4 & 0.2 & setosa\\
-4.9 & 3.0 & 1.4 & 0.2 & setosa\\
-4.7 & 3.2 & 1.3 & 0.2 & setosa\\
-4.6 & 3.1 & 1.5 & 0.2 & setosa\\
-5.0 & 3.6 & 1.4 & 0.2 & setosa\\
-\addlinespace
-5.4 & 3.9 & 1.7 & 0.4 & setosa\\
-\bottomrule
-\end{tabular}
-\end{table}
-
-就这样，你可以一直编下去，直到编不下去。
+论文写完后,右上角有 submit 功能,可以直接提交到期刊(现在已接入的较少).
 
 \hypertarget{section-6}{%
 \chapter{特色功能展示}\label{section-6}}
@@ -341,93 +310,32 @@ Sepal.Length & Sepal.Width & Petal.Length & Petal.Width & Species\\
 \hypertarget{section-10}{%
 \section{参考文献整合}\label{section-10}}
 
-张老爷子
-
-话说张老爷子写了一首诗：
-
-\begin{quote}
-姑苏开遍碧桃时，邂逅河阳女画师。\\
-红豆江南留梦影，白苹风末唱秋词。
-\end{quote}
-
-彭大将领
-
-貌似大家都喜欢用白萍风这个意境。又如彭玉麟的对联：
-
-\begin{quote}
-凭栏看云影波光，最好是红蓼花疏、白苹秋老；\\
-把酒对琼楼玉宇，莫孤负天心月到、水面风来。
-\end{quote}
-
-嘿，玛尼玛尼哄。
-
 \hypertarget{section-11}{%
-\chapter{订阅费用}\label{section-11}}
+\chapter{缺陷和不足}\label{section-11}}
+
+\hypertarget{section-12}{%
+\section{订阅费用}\label{section-12}}
 
 \url{https://www.overleaf.com/user/subscription/plans}
 
-张老爷子
-
-话说张老爷子写了一首诗：
-
-\begin{quote}
-姑苏开遍碧桃时，邂逅河阳女画师。\\
-红豆江南留梦影，白苹风末唱秋词。
-\end{quote}
-
-彭大将领
-
-貌似大家都喜欢用白萍风这个意境。又如彭玉麟的对联：
-
-\begin{quote}
-凭栏看云影波光，最好是红蓼花疏、白苹秋老；\\
-把酒对琼楼玉宇，莫孤负天心月到、水面风来。
-\end{quote}
-
-嘿，玛尼玛尼哄。
-
-\hypertarget{section-12}{%
-\chapter{特色功能展示}\label{section-12}}
-
 \hypertarget{section-13}{%
-\section{本地和服务器同步}\label{section-13}}
+\section{常用符号少}\label{section-13}}
 
 \hypertarget{section-14}{%
-\section{合作编辑}\label{section-14}}
+\chapter{示例项目}\label{section-14}}
+
+这里通过链接分享一些示例项目.
+
+beamer的示例项目:
+\url{https://cn.overleaf.com/read/tpzfjkmsfwkw}
 
 \hypertarget{section-15}{%
-\section{历史版本}\label{section-15}}
-
-\hypertarget{section-16}{%
-\section{参考文献整合}\label{section-16}}
-
-张老爷子
-
-话说张老爷子写了一首诗：
-
-\begin{quote}
-姑苏开遍碧桃时，邂逅河阳女画师。\\
-红豆江南留梦影，白苹风末唱秋词。
-\end{quote}
-
-彭大将领
-
-貌似大家都喜欢用白萍风这个意境。又如彭玉麟的对联：
-
-\begin{quote}
-凭栏看云影波光，最好是红蓼花疏、白苹秋老；\\
-把酒对琼楼玉宇，莫孤负天心月到、水面风来。
-\end{quote}
-
-嘿，玛尼玛尼哄。
-
-\hypertarget{section-17}{%
-\chapter{其他工具}\label{section-17}}
+\chapter{其他工具}\label{section-15}}
 
 这里介绍一些可以提高LaTeX写作效率的其他工具
 
-\hypertarget{section-18}{%
-\section{公式}\label{section-18}}
+\hypertarget{section-16}{%
+\section{公式}\label{section-16}}
 
 mathpix
 
@@ -435,8 +343,8 @@ mathpix
 
 \url{https://mathpix.com}
 
-\hypertarget{section-19}{%
-\section{表格}\label{section-19}}
+\hypertarget{section-17}{%
+\section{表格}\label{section-17}}
 
 在LaTeX中插入表格并不是很简单的一件事,尤其是当表头需要合并单元格时.
 这里介绍一些可以提高输入表格效率的工具.
@@ -456,16 +364,16 @@ mathpix
 
 \begin{verbatim}
 ## % latex table generated in R 3.6.0 by xtable 1.8-4 package
-## % Sat Jun  1 19:08:00 2019
+## % Sun Jun  2 22:46:48 2019
 ## \begin{table}[ht]
 ## \centering
 ## \begin{tabular}{rrrrr}
 ##   \hline
 ##  & 1 & 2 & 3 & 4 \\ 
 ##   \hline
-## 1 & -0.11 & 0.75 & -0.98 & -1.81 \\ 
-##   2 & -1.08 & -0.60 & -0.57 & -1.55 \\ 
-##   3 & -1.11 & 1.49 & 0.30 & 1.10 \\ 
+## 1 & -0.08 & 0.64 & -0.28 & 0.67 \\ 
+##   2 & -1.00 & 0.57 & 1.24 & -0.08 \\ 
+##   3 & -1.30 & 1.53 & 0.67 & -1.21 \\ 
 ##    \hline
 ## \end{tabular}
 ## \end{table}
@@ -475,9 +383,9 @@ mathpix
 
 但是,这还不够.每次都要复制粘贴仍然很麻烦,而且如果表格的行名、列名有特定的格式,并不能直接粘贴结果(macOS下可以支持选择矩形区域修改).
 
-我们可以利用LaTeX的``\textbackslash{}input''指令,完成更酷的操作.
+我们可以利用LaTeX的\textbackslash{}input\{\}指令,完成更酷的操作.
 
-大致流程就是在R中将xtable的输出结果写入文本文件``tableXXXX.tex'',然后在tex中需要插入表格的地方``\textbackslash{}input''\{tableXXXX.tex\}.
+大致流程就是在R中将xtable的输出结果写入文本文件``tableXXXX.tex'',然后在tex中需要插入表格的地方\textbackslash{}input\{tableXXXX.tex\}.
 
 这样我们每次要把R新计算出来的表格更新到tex中,只需要重新编译一次即可.
 
@@ -489,18 +397,18 @@ mathpix
 
 \begin{Shaded}
 \begin{Highlighting}[]
+\CommentTok{#https://stackoverflow.com/questions/15036754/r-package-xtable-how-to-create-a-latextable-with-multiple-rows-and-columns-from}
+
+\CommentTok{#setwd()}
+
 \KeywordTok{library}\NormalTok{(xtable)}
 
 \NormalTok{C =}\StringTok{ }\NormalTok{(}\KeywordTok{rep}\NormalTok{(}\DecValTok{0}\OperatorTok{:}\DecValTok{5}\NormalTok{,}\DecValTok{2}\NormalTok{))}
 \NormalTok{n =}\StringTok{ }\KeywordTok{rep}\NormalTok{(}\KeywordTok{c}\NormalTok{(}\DecValTok{200}\NormalTok{,}\DecValTok{300}\NormalTok{),}\DataTypeTok{each=}\DecValTok{6}\NormalTok{)}
 
-\NormalTok{tau =}\KeywordTok{paste}\NormalTok{(}\StringTok{"}\CharTok{\textbackslash{}\textbackslash{}}\StringTok{tau="}\NormalTok{,(}\KeywordTok{rep}\NormalTok{(}\KeywordTok{c}\NormalTok{(.}\DecValTok{25}\NormalTok{,.}\DecValTok{5}\NormalTok{,.}\DecValTok{75}\NormalTok{),}\DecValTok{2}\NormalTok{)))}
-
-
 \NormalTok{data =}\StringTok{ }\KeywordTok{matrix}\NormalTok{(}\KeywordTok{runif}\NormalTok{(}\DecValTok{6}\OperatorTok{*}\DecValTok{12}\NormalTok{),}\DecValTok{12}\NormalTok{,}\DecValTok{6}\NormalTok{)}
 \NormalTok{data =}\StringTok{ }\KeywordTok{round}\NormalTok{(data,}\DecValTok{3}\NormalTok{)}
 \NormalTok{df =}\KeywordTok{data.frame}\NormalTok{(}\KeywordTok{c}\NormalTok{(}\KeywordTok{replicate}\NormalTok{(}\DecValTok{6}\NormalTok{,}\StringTok{"200"}\NormalTok{),}\KeywordTok{replicate}\NormalTok{(}\DecValTok{6}\NormalTok{,}\StringTok{"300"}\NormalTok{)),C,}\KeywordTok{cbind}\NormalTok{(data[,}\DecValTok{1}\OperatorTok{:}\DecValTok{3}\NormalTok{],}\KeywordTok{rep}\NormalTok{(}\StringTok{""}\NormalTok{,}\DecValTok{12}\NormalTok{),data[,}\DecValTok{4}\OperatorTok{:}\DecValTok{6}\NormalTok{]))}
-
 \CommentTok{# only needed if first column consists of numbers}
 \NormalTok{df[[}\DecValTok{1}\NormalTok{]] <-}\StringTok{ }\KeywordTok{as.character}\NormalTok{(df[[}\DecValTok{1}\NormalTok{]])}
 \NormalTok{rle.lengths <-}\StringTok{ }\KeywordTok{rle}\NormalTok{(df[[}\DecValTok{1}\NormalTok{]])}\OperatorTok{$}\NormalTok{lengths}
@@ -523,20 +431,19 @@ mathpix
        \DataTypeTok{floating=}\OtherTok{TRUE} \CommentTok{# whether \textbackslash{}begin\{Table\} should be created (TRUE) or not (FALSE)}
 \NormalTok{) ->}\StringTok{ }\NormalTok{outtable}
 
-\CommentTok{#}
-\KeywordTok{print}\NormalTok{(outtable,}
+\CommentTok{#cat(}
+  \KeywordTok{print}\NormalTok{(outtable,}
           \DataTypeTok{hline.after =} \KeywordTok{c}\NormalTok{(}\OperatorTok{-}\DecValTok{1}\NormalTok{,}\DecValTok{0}\NormalTok{,}\KeywordTok{nrow}\NormalTok{(outtable),}\KeywordTok{nrow}\NormalTok{(outtable)}\OperatorTok{-}\DecValTok{6}\NormalTok{),}
           \CommentTok{#booktabs = TRUE,}
           \DataTypeTok{sanitize.text.function =}\NormalTok{ force }\CommentTok{# Important to treat content of first column as latex function}
 \NormalTok{          ,}\DataTypeTok{caption.placement =} \StringTok{"top"} \CommentTok{#"top", NULL}
-\NormalTok{          ,}\DataTypeTok{type =} \StringTok{"latex"}
 \NormalTok{          ,}\DataTypeTok{add.to.row =}\NormalTok{ addtorow,}\DataTypeTok{include.colnames =} \OtherTok{FALSE}\NormalTok{,}\DataTypeTok{include.rownames =} \OtherTok{FALSE}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
 
 \begin{verbatim}
 ## % latex table generated in R 3.6.0 by xtable 1.8-4 package
-## % Sat Jun  1 19:08:00 2019
+## % Sun Jun  2 22:46:48 2019
 ## \begin{table}[ht]
 ## \centering
 ## \caption{测试} 
@@ -546,23 +453,29 @@ mathpix
 ##   \multirow{2}*{$n$} &\multirow{2}*{$C$}& \multicolumn{3}{c}{The homoscedastic cases}&& \multicolumn{3}{c}{The heteroscedastic cases} \\
 ##      \cline{3-5}     \cline{7-9}  && $\tau=0.25$ & $\tau=0.5$ & $\tau=0.75$ && $\tau=0.25$ & $\tau=0.5$ & $\tau=0.75$ \\
 ##  \hline
-## \multirow{6}{*}{{200}} & 0 & 0.297 & 0.305 & 0.513 &  & 0.581 & 0.394 & 0.98 \\ 
-##    & 1 & 0.851 & 0.564 & 0.98 &  & 0.692 & 0.174 & 0.299 \\ 
-##    & 2 & 0.839 & 0.488 & 0.031 &  & 0.333 & 0.192 & 0.374 \\ 
-##    & 3 & 0.665 & 0.618 & 0.522 &  & 0.522 & 0.446 & 0.81 \\ 
-##    & 4 & 0.947 & 0.021 & 0.465 &  & 0.154 & 0.828 & 0.369 \\ 
-##    & 5 & 0.828 & 0.046 & 0.072 &  & 0.278 & 0.202 & 0.437 \\ 
+## \multirow{6}{*}{{200}} & 0 & 0.004 & 0.732 & 0.501 &  & 0.391 & 0.285 & 0.876 \\ 
+##    & 1 & 0.771 & 0.837 & 0.322 &  & 0.329 & 0.862 & 0.379 \\ 
+##    & 2 & 0.683 & 0.737 & 0.502 &  & 0.64 & 0.949 & 0.953 \\ 
+##    & 3 & 0.527 & 0.384 & 0.068 &  & 0.623 & 0.644 & 0.644 \\ 
+##    & 4 & 0.911 & 0.961 & 0.444 &  & 0.692 & 0.706 & 0.781 \\ 
+##    & 5 & 0.775 & 0.693 & 0.83 &  & 0.484 & 0.531 & 0.59 \\ 
 ##    \hline
-## \multirow{6}{*}{{300}} & 0 & 0.297 & 0.124 & 0.2 &  & 0.956 & 0.231 & 0.835 \\ 
-##    & 1 & 0.881 & 0.139 & 0.049 &  & 0.146 & 0.127 & 0.368 \\ 
-##    & 2 & 0.592 & 0.321 & 0.958 &  & 0.014 & 0.494 & 0.032 \\ 
-##    & 3 & 0.23 & 0.549 & 0.088 &  & 0.24 & 0.455 & 0.39 \\ 
-##    & 4 & 0.49 & 0.473 & 0.266 &  & 0.291 & 0.001 & 0.802 \\ 
-##    & 5 & 0.702 & 0.523 & 0.951 &  & 0.339 & 0.741 & 0.254 \\ 
+## \multirow{6}{*}{{300}} & 0 & 0.509 & 0.745 & 0.521 &  & 0.95 & 0.146 & 0.372 \\ 
+##    & 1 & 0.234 & 0.245 & 0.189 &  & 0.024 & 0.758 & 0.173 \\ 
+##    & 2 & 0.303 & 0.827 & 0.599 &  & 0.23 & 0.797 & 0.859 \\ 
+##    & 3 & 0.066 & 0.76 & 0.071 &  & 0.814 & 0.056 & 0.868 \\ 
+##    & 4 & 0.654 & 0.096 & 0.668 &  & 0.184 & 0.139 & 0.684 \\ 
+##    & 5 & 0.252 & 0.537 & 0.021 &  & 0.688 & 0.123 & 0.448 \\ 
 ##    \hline
 ## \end{tabular}
 ## \end{table}
 \end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+    \CommentTok{#,file = "table.tex")}
+\end{Highlighting}
+\end{Shaded}
 
 也支持生成html的形式.
 
@@ -578,11 +491,11 @@ mathpix
 
 \url{http://www.tablesgenerator.com/\#}
 
-\hypertarget{section-20}{%
-\chapter{一些模板}\label{section-20}}
+\hypertarget{section-18}{%
+\chapter{一些模板}\label{section-18}}
 
-\hypertarget{section-21}{%
-\section{学位论文模板}\label{section-21}}
+\hypertarget{section-19}{%
+\section{学位论文模板}\label{section-19}}
 
 \url{https://github.com/ustctug/awesome-latex-thesis}
 
