@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.11.7)  2 JUN 2019 22:46
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.11.7)  3 JUN 2019 11:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1550,10 +1550,16 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 Package: footnote 1997/01/28 1.13 Save footnotes around boxes
 \fn@notes=\box63
 \fn@width=\dimen274
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grffile.sty
+Package: grffile 2017/06/30 v1.18 Extended file name support for graphics (HO)
+Package grffile Info: Option `multidot' is set to `true'.
+Package grffile Info: Option `extendedchars' is set to `false'.
+Package grffile Info: Option `space' is set to `true'.
+Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 494.
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
-Package color Info: Redefining color shadecolor on input line 110.
+Package color Info: Redefining color shadecolor on input line 119.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
@@ -1720,38 +1726,39 @@ other characters in Unicode lower plane
 *** Reloading Xunicode for encoding 'TU' ***
 ) (/usr/local/texlive/2018/texmf-dist/tex/xelatex/xecjk/xunicode-extra.def
 File: xunicode-extra.def 2018/04/07 v3.7.0 extra definition for xunicode
-) (./bookdown.aux)
+)
+No file bookdown.aux.
 \openout1 = `bookdown.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 169.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 169.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 177.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 177.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 169.
-LaTeX Info: Redefining \microtypecontext on input line 169.
+LaTeX Info: Redefining \selectfont on input line 177.
+LaTeX Info: Redefining \microtypecontext on input line 177.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: No adjustment of tracking.
@@ -1797,7 +1804,7 @@ ern Roman (RS)
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box66
-Package hyperref Info: Link coloring ON on input line 169.
+Package hyperref Info: Link coloring ON on input line 177.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1805,14 +1812,16 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count309
 )
-LaTeX Info: Redefining \ref on input line 169.
-LaTeX Info: Redefining \pageref on input line 169.
-LaTeX Info: Redefining \nameref on input line 169.
-(./bookdown.out) (./bookdown.out)
+LaTeX Info: Redefining \ref on input line 177.
+LaTeX Info: Redefining \pageref on input line 177.
+LaTeX Info: Redefining \nameref on input line 177.
 \@outlinefile=\write5
 \openout5 = `bookdown.out'.
 
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 171.
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 179.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1821,34 +1830,34 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmr' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 171.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 179.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 171
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 179
 .
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 171
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 179
 .
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12.045> on input line 171.
+(Font)              <12.045> on input line 179.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 171.
+(Font)              <8> on input line 179.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 171.
-LaTeX Font Info:    Try loading font information for U+msa on input line 171.
+(Font)              <6> on input line 179.
+LaTeX Font Info:    Try loading font information for U+msa on input line 179.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 171.
+LaTeX Font Info:    Try loading font information for U+msb on input line 179.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -1857,32 +1866,26 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 
 
-] [2] (./bookdown.toc
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.53937> on input line 2.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 2.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 2.
-[3
-
-])
+] [2]
 \tf@toc=\write6
 \openout6 = `bookdown.toc'.
 
+[3
+
+]
 LaTeX Font Info:    Font shape `TU/STSong(0)/m/sl' in size <10.53937> not avail
 able
 (Font)              Font shape `TU/STSong(0)/m/it' tried instead on input line 
-188.
-[4] (./bookdown.lot)
+196.
+[4
+
+]
 \tf@lot=\write7
 \openout7 = `bookdown.lot'.
 
-[5
+[5] [6
 
-] [6
-
-] (./bookdown.lof)
+]
 \tf@lof=\write8
 \openout8 = `bookdown.lof'.
 
@@ -1932,34 +1935,45 @@ able
 . <->s*[0.9707213523154882]"STFangsong/OT:mapping=tex-text;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.53937> on input line 204.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 204.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 204.
 
-Overfull \hbox (8.1981pt too wide) in paragraph at lines 203--205
+Overfull \hbox (8.1981pt too wide) in paragraph at lines 211--213
 []\TU/lmr/m/n/10.53937 LaTeX \TU/STSong(0)/m/n/10.53937 的 介 绍\TU/lmr/m/n/10.539
 37 : [][]$[][][][][] [] [] [] [][][][] [] [][][][] [] [][][][] [] [][] [] [][] 
 [] [][][][][][][][][][][][][][][][][][][][]$[][] 
  []
 
 
-LaTeX Warning: Reference `wind' on page ix undefined on input line 210.
+Package natbib Warning: Citation `xie2015' on page ix undefined on input line 2
+22.
+
+
+Package natbib Warning: Citation `R-bookdown' on page ix undefined on input lin
+e 222.
 
 LaTeX Font Info:    Font shape `TU/STFangsong(0)/m/n' will be
-(Font)              scaled to size 10.23074pt on input line 215.
+(Font)              scaled to size 10.23074pt on input line 225.
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.53937> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 216.
-
-Overfull \hbox (145.80048pt too wide) in paragraph at lines 245--245
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 226.
+[9]
+Overfull \hbox (145.80048pt too wide) in paragraph at lines 255--255
 []\TU/lmtt/m/n/10.53937 ## BLAS:   /Library/Frameworks/R.framework/Versions/3.6
 /Resources/lib/libRblas.0.dylib[] 
  []
 
-[9]
-Overfull \hbox (145.80046pt too wide) in paragraph at lines 245--245
+
+Overfull \hbox (145.80046pt too wide) in paragraph at lines 255--255
 []\TU/lmtt/m/n/10.53937 ## LAPACK: /Library/Frameworks/R.framework/Versions/3.6
 /Resources/lib/libRlapack.dylib[] 
  []
 
 
-Overfull \hbox (46.20348pt too wide) in paragraph at lines 245--245
+Overfull \hbox (46.20348pt too wide) in paragraph at lines 255--255
 []\TU/lmtt/m/n/10.53937 ## [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-
 8/en_US.UTF-8[] 
  []
@@ -1970,190 +1984,22 @@ Overfull \hbox (46.20348pt too wide) in paragraph at lines 245--245
 
 ]
 第一章
-[1
 
-] [2]
-第二章
-[3
+! LaTeX Error: File `/figure/newproject' not found.
 
-] [4
-
-]
-第三章
-[5] [6
-
-]
-第四章
-[7] [8
-
-]
-第五章
-[9]
-Overfull \hbox (7.47133pt too wide) in paragraph at lines 380--380
-[]\TU/lmtt/m/n/10.53937 ## % latex table generated in R 3.6.0 by xtable 1.8-4 p
-ackage[] 
- []
-
-
-Overfull \hbox (11.73863pt too wide) in paragraph at lines 388--389
-[]\TU/STSong(0)/m/n/10.53937 大 致 流 程 就 是 在 \TU/lmr/m/n/10.53937 R \TU/STSong(0)
-/m/n/10.53937 中 将 \TU/lmr/m/n/10.53937 xtable \TU/STSong(0)/m/n/10.53937 的 输 出 
-结 果 写 入 文 本 文 件 \TU/lmr/m/n/10.53937 “tableXXXX.tex”,
- []
-
-
-Overfull \hbox (362.56143pt too wide) in paragraph at lines 394--395
-[][][]$[][][][][] [] [] [] [][][][][][][][][][][][][] [] [][][] [] [][][][][][]
-[][][] [] [][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][] 
- []
-
-[10]
-Underfull \vbox (badness 10000) detected at line 442
- []
-
-
-Underfull \vbox (badness 10000) detected at line 442
- []
-
-[11]
-Overfull \hbox (7.47133pt too wide) in paragraph at lines 472--472
-[]\TU/lmtt/m/n/10.53937 ## % latex table generated in R 3.6.0 by xtable 1.8-4 p
-ackage[] 
- []
-
-
-Overfull \hbox (439.05847pt too wide) in paragraph at lines 472--472
-[]\TU/lmtt/m/n/10.53937 ##   \multirow{2}*{$n$} &\multirow{2}*{$C$}& \multicolu
-mn{3}{c}{The homoscedastic cases}&& \multicolumn{3}{c}{The heteroscedastic case
-s} \\[] 
- []
-
-
-Overfull \hbox (350.52783pt too wide) in paragraph at lines 472--472
-[]\TU/lmtt/m/n/10.53937 ##      \cline{3-5}     \cline{7-9}  && $\tau=0.25$ & $
-\tau=0.5$ & $\tau=0.75$ && $\tau=0.25$ & $\tau=0.5$ & $\tau=0.75$ \\[] 
- []
-
-
-Overfull \hbox (129.20114pt too wide) in paragraph at lines 472--472
-[]\TU/lmtt/m/n/10.53937 ## \multirow{6}{*}{{200}} & 0 & 0.004 & 0.732 & 0.501 &
-  & 0.391 & 0.285 & 0.876 \\[] 
- []
-
-
-Overfull \hbox (18.53778pt too wide) in paragraph at lines 472--472
-[]\TU/lmtt/m/n/10.53937 ##    & 1 & 0.771 & 0.837 & 0.322 &  & 0.329 & 0.862 & 
-0.379 \\[] 
- []
-
-
-Overfull \hbox (13.00461pt too wide) in paragraph at lines 472--472
-[]\TU/lmtt/m/n/10.53937 ##    & 2 & 0.683 & 0.737 & 0.502 &  & 0.64 & 0.949 & 0
-.953 \\[] 
- []
-
-
-Overfull \hbox (18.53778pt too wide) in paragraph at lines 472--472
-[]\TU/lmtt/m/n/10.53937 ##    & 3 & 0.527 & 0.384 & 0.068 &  & 0.623 & 0.644 & 
-0.644 \\[] 
- []
-
-
-Overfull \hbox (18.53778pt too wide) in paragraph at lines 472--472
-[]\TU/lmtt/m/n/10.53937 ##    & 4 & 0.911 & 0.961 & 0.444 &  & 0.692 & 0.706 & 
-0.781 \\[] 
- []
-
-
-Overfull \hbox (7.47144pt too wide) in paragraph at lines 472--472
-[]\TU/lmtt/m/n/10.53937 ##    & 5 & 0.775 & 0.693 & 0.83 &  & 0.484 & 0.531 & 0
-.59 \\[] 
- []
-
-
-Overfull \hbox (123.66797pt too wide) in paragraph at lines 472--472
-[]\TU/lmtt/m/n/10.53937 ## \multirow{6}{*}{{300}} & 0 & 0.509 & 0.745 & 0.521 &
-  & 0.95 & 0.146 & 0.372 \\[] 
- []
-
-
-Overfull \hbox (18.53778pt too wide) in paragraph at lines 472--472
-[]\TU/lmtt/m/n/10.53937 ##    & 1 & 0.234 & 0.245 & 0.189 &  & 0.024 & 0.758 & 
-0.173 \\[] 
- []
-
-
-Overfull \hbox (13.00461pt too wide) in paragraph at lines 472--472
-[]\TU/lmtt/m/n/10.53937 ##    & 2 & 0.303 & 0.827 & 0.599 &  & 0.23 & 0.797 & 0
-.859 \\[] 
- []
-
-
-Overfull \hbox (13.00461pt too wide) in paragraph at lines 472--472
-[]\TU/lmtt/m/n/10.53937 ##    & 3 & 0.066 & 0.76 & 0.071 &  & 0.814 & 0.056 & 0
-.868 \\[] 
- []
-
-
-Overfull \hbox (18.53778pt too wide) in paragraph at lines 472--472
-[]\TU/lmtt/m/n/10.53937 ##    & 4 & 0.654 & 0.096 & 0.668 &  & 0.184 & 0.139 & 
-0.684 \\[] 
- []
-
-
-Overfull \hbox (18.53778pt too wide) in paragraph at lines 472--472
-[]\TU/lmtt/m/n/10.53937 ##    & 5 & 0.252 & 0.537 & 0.021 &  & 0.688 & 0.123 & 
-0.448 \\[] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[12] [13] [14
-
-]
-第六章
-
-Underfull \hbox (badness 10000) in paragraph at lines 510--511
-[][][]$[][][][] [] [] [] [][][][] [] [][][] [] [][] [] [][][][][][][][] [] [][]
-[][][][] [] [][][][][][][] [] [][][][][] [] [][] [] [][][][][] []
- []
-
-[15] [16
-
-]
-附录 A
-(./bookdown.bbl [17
-
-] [18
-
-]) [19] [20
-
-] (./bookdown.ind [21
-
-
-])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 530.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 530.
-(./bookdown.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 530.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 530.
-Package rerunfilecheck Info: File `bookdown.out' has not changed.
-(rerunfilecheck)             Checksum: E8278B0B3180EB0614AAC38C553F1317.
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 530.
- ) 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.283 \includegraphics{/figure/newproject}
+                                           
 Here is how much of TeX's memory you used:
- 31089 strings out of 492970
- 602053 string characters out of 6133938
- 685677 words of memory out of 5000000
- 34702 multiletter control sequences out of 15000+600000
- 555261 words of font info for 84 fonts, out of 8000000 for 9000
+ 31098 strings out of 492970
+ 601938 string characters out of 6133938
+ 679039 words of memory out of 5000000
+ 34703 multiletter control sequences out of 15000+600000
+ 555237 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 53i,6n,126p,10434b,883s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,6n,126p,10434b,873s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on bookdown.pdf (33 pages).
+Output written on bookdown.pdf (12 pages).

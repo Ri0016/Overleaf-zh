@@ -2,11 +2,22 @@
 
 # Overleaf写作流程 {#intro}
 
+这一章简单介绍在Overleaf中撰写论文的流程.
+
+## 注册账号
+
+https://cn.overleaf.com/project
+
+目前并不能直接注册,需要借助梯子.
+但是注册后可以直接访问(但是速度并不是很理想).
+
 
 ## 创建项目
 
+
+![新建项目](/figure/newproject)
+
 登陆后,在左上角可以看到创建新项目
-https://cn.overleaf.com/project
 
 出了空白项目和上传项目之外,Overleaf有丰富的模板资源:
 https://cn.overleaf.com/latex/templates
