@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.11.7)  3 JUN 2019 11:03
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.11.7)  4 JUN 2019 15:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1726,8 +1726,7 @@ other characters in Unicode lower plane
 *** Reloading Xunicode for encoding 'TU' ***
 ) (/usr/local/texlive/2018/texmf-dist/tex/xelatex/xecjk/xunicode-extra.def
 File: xunicode-extra.def 2018/04/07 v3.7.0 extra definition for xunicode
-)
-No file bookdown.aux.
+) (./bookdown.aux)
 \openout1 = `bookdown.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 177.
@@ -1815,11 +1814,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 177.
 LaTeX Info: Redefining \pageref on input line 177.
 LaTeX Info: Redefining \nameref on input line 177.
+(./bookdown.out) (./bookdown.out)
 \@outlinefile=\write5
 \openout5 = `bookdown.out'.
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 179.
 
@@ -1866,26 +1863,32 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 
 
-] [2]
+] [2] (./bookdown.toc
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.53937> on input line 2.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 2.
+[3
+
+])
 \tf@toc=\write6
 \openout6 = `bookdown.toc'.
 
-[3
-
-]
 LaTeX Font Info:    Font shape `TU/STSong(0)/m/sl' in size <10.53937> not avail
 able
 (Font)              Font shape `TU/STSong(0)/m/it' tried instead on input line 
 196.
-[4
-
-]
+[4] (./bookdown.lot)
 \tf@lot=\write7
 \openout7 = `bookdown.lot'.
 
-[5] [6
+[5
 
-]
+] [6
+
+] (./bookdown.lof)
 \tf@lof=\write8
 \openout8 = `bookdown.lof'.
 
@@ -1935,12 +1938,6 @@ able
 . <->s*[0.9707213523154882]"STFangsong/OT:mapping=tex-text;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.53937> on input line 204.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 204.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 204.
 
 Overfull \hbox (8.1981pt too wide) in paragraph at lines 211--213
 []\TU/lmr/m/n/10.53937 LaTeX \TU/STSong(0)/m/n/10.53937 的 介 绍\TU/lmr/m/n/10.539
@@ -1948,32 +1945,24 @@ Overfull \hbox (8.1981pt too wide) in paragraph at lines 211--213
 [] [][][][][][][][][][][][][][][][][][][][]$[][] 
  []
 
-
-Package natbib Warning: Citation `xie2015' on page ix undefined on input line 2
-22.
-
-
-Package natbib Warning: Citation `R-bookdown' on page ix undefined on input lin
-e 222.
-
 LaTeX Font Info:    Font shape `TU/STFangsong(0)/m/n' will be
 (Font)              scaled to size 10.23074pt on input line 225.
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.53937> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 226.
 [9]
-Overfull \hbox (145.80048pt too wide) in paragraph at lines 255--255
+Overfull \hbox (145.80048pt too wide) in paragraph at lines 253--253
 []\TU/lmtt/m/n/10.53937 ## BLAS:   /Library/Frameworks/R.framework/Versions/3.6
 /Resources/lib/libRblas.0.dylib[] 
  []
 
 
-Overfull \hbox (145.80046pt too wide) in paragraph at lines 255--255
+Overfull \hbox (145.80046pt too wide) in paragraph at lines 253--253
 []\TU/lmtt/m/n/10.53937 ## LAPACK: /Library/Frameworks/R.framework/Versions/3.6
 /Resources/lib/libRlapack.dylib[] 
  []
 
 
-Overfull \hbox (46.20348pt too wide) in paragraph at lines 255--255
+Overfull \hbox (46.20348pt too wide) in paragraph at lines 253--253
 []\TU/lmtt/m/n/10.53937 ## [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-
 8/en_US.UTF-8[] 
  []
@@ -1984,22 +1973,204 @@ Overfull \hbox (46.20348pt too wide) in paragraph at lines 255--255
 
 ]
 第一章
+File: figure/newproject.png Graphic file (type bmp)
+<figure/newproject.png>
+[1
 
-! LaTeX Error: File `/figure/newproject' not found.
+]
+File: figure/editepage.png Graphic file (type bmp)
+<figure/editepage.png>
+[2]
+File: figure/share.png Graphic file (type bmp)
+<figure/share.png>
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.283 \includegraphics{/figure/newproject}
-                                           
+Underfull \vbox (badness 7308) has occurred while \output is active []
+
+[3]
+File: figure/submit.jpg Graphic file (type bmp)
+<figure/submit.jpg>
+
+LaTeX Warning: Float too large for page by 28.05191pt on input line 357.
+
+[4] [5] [6
+
+]
+第二章
+File: figure/editepagemarked.png Graphic file (type bmp)
+<figure/editepagemarked.png>
+
+Overfull \hbox (259.95537pt too wide) in paragraph at lines 362--364
+[]\TU/STSong(0)/m/n/10.53937 创 建 项 目 之 后\TU/lmr/m/n/10.53937 , \TU/STSong(0)/m/
+n/10.53937 我 们 进 入 到 项 目 的 编 辑 界 面\TU/lmr/m/n/10.53937 , \TU/STSong(0)/m/n/10.5
+3937 如 下 图 所 示\TU/lmr/m/n/10.53937 : [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[7]
+File: figure/menu.jpg Graphic file (type bmp)
+<figure/menu.jpg>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[9]
+File: figure/wordcount.png Graphic file (type bmp)
+<figure/wordcount.png>
+
+Overfull \hbox (225.42432pt too wide) in paragraph at lines 389--391
+[]\TU/STSong(0)/m/n/10.53937 这 里 比 较 有 用 的 可 能 只 有 \TU/STSong(0)/bx/n/10.53937 
+字 数 统 计 \TU/STSong(0)/m/n/10.53937 功 能\TU/lmr/m/n/10.53937 , \TU/STSong(0)/m/n/
+10.53937 如 下 图\TU/lmr/m/n/10.53937 : [] 
+ []
+
+[10]
+File: figure/hotkey.png Graphic file (type bmp)
+<figure/hotkey.png>
+
+Underfull \hbox (badness 4378) in paragraph at lines 415--417
+[]\TU/STSong(0)/m/n/10.53937 最 下 面 有 快 捷 键 的 说 明\TU/lmr/m/n/10.53937 , \TU/STSo
+ng(0)/m/n/10.53937 和 常 用 的 编 辑 器 快 捷 键 设 置 基 本 相 同\TU/lmr/m/n/10.53937 .
+ []
+
+File: figure/P1.png Graphic file (type bmp)
+<figure/P1.png>
+File: figure/addfiles.png Graphic file (type bmp)
+<figure/addfiles.png>
+[11] [12]
+File: figure/P2.png Graphic file (type bmp)
+<figure/P2.png>
+[13]
+File: figure/P3.png Graphic file (type bmp)
+<figure/P3.png>
+File: figure/localpdf.png Graphic file (type bmp)
+<figure/localpdf.png>
+File: figure/compileset.png Graphic file (type bmp)
+<figure/compileset.png>
+[14] [15] [16] [17] [18
+
+]
+第三章
+[19]
+File: figure/invite.png Graphic file (type bmp)
+<figure/invite.png>
+
+Overfull \hbox (80.7955pt too wide) in paragraph at lines 537--540
+[]\TU/STSong(0)/m/n/10.53937 会 看 到 横 幅 通 知\TU/lmr/m/n/10.53937 : []
+ []
+
+File: figure/collaborator.png Graphic file (type bmp)
+<figure/collaborator.png>
+File: figure/history.png Graphic file (type bmp)
+<figure/history.png>
+
+Overfull \hbox (17.74486pt too wide) in paragraph at lines 555--557
+\TU/STSong(0)/m/n/10.53937 看\TU/lmr/m/n/10.53937 . [] 
+ []
+
+[20]
+File: figure/review.png Graphic file (type bmp)
+<figure/review.png>
+
+Overfull \hbox (108.02765pt too wide) in paragraph at lines 560--562
+\TU/lmr/m/n/10.53937 Word \TU/STSong(0)/m/n/10.53937 修 订 模 式 的 功 能\TU/lmr/m/n/1
+0.53937 . [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[21]
+Overfull \hbox (26.07108pt too wide) in paragraph at lines 568--570
+[][][]$[][][][][] [] [] [] [][][][] [] [][][][] [] [][][][] [] [][] [] [][] [] 
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$
+[][]
+ []
+
+[22]
+File: figure/addfiles.png Graphic file (type bmp)
+<figure/addfiles.png>
+File: figure/zotero.png Graphic file (type bmp)
+<figure/zotero.png>
+[23] [24]
+第四章
+
+Underfull \vbox (badness 2245) has occurred while \output is active []
+
+[25
+
+] [26]
+第五章
+[27
+
+] [28
+
+]
+第六章
+[29]
+Overfull \hbox (7.47133pt too wide) in paragraph at lines 690--690
+[]\TU/lmtt/m/n/10.53937 ## % latex table generated in R 3.6.0 by xtable 1.8-4 p
+ackage[] 
+ []
+
+
+Overfull \hbox (11.73863pt too wide) in paragraph at lines 698--699
+[]\TU/STSong(0)/m/n/10.53937 大 致 流 程 就 是 在 \TU/lmr/m/n/10.53937 R \TU/STSong(0)
+/m/n/10.53937 中 将 \TU/lmr/m/n/10.53937 xtable \TU/STSong(0)/m/n/10.53937 的 输 出 
+结 果 写 入 文 本 文 件 \TU/lmr/m/n/10.53937 “tableXXXX.tex”,
+ []
+
+
+Overfull \hbox (362.56143pt too wide) in paragraph at lines 704--705
+[][][]$[][][][][] [] [] [] [][][][][][][][][][][][][] [] [][][] [] [][][][][][]
+[][][] [] [][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][] 
+ []
+
+[30] [31] [32
+
+]
+第七章
+
+Underfull \hbox (badness 10000) in paragraph at lines 740--741
+[][][]$[][][][] [] [] [] [][][][] [] [][][] [] [][] [] [][][][][][][][] [] [][]
+[][][][] [] [][][][][][][] [] [][][][][] [] [][] [] [][][][][] []
+ []
+
+[33] [34
+
+]
+附录 A
+(./bookdown.bbl [35
+
+] [36
+
+]) [37] [38
+
+] (./bookdown.ind [39
+
+
+])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 760.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 760.
+(./bookdown.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 760.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 760.
+Package rerunfilecheck Info: File `bookdown.out' has not changed.
+(rerunfilecheck)             Checksum: 66098FD24A8FAC959B38D1EB91A1C88A.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 760.
+ ) 
 Here is how much of TeX's memory you used:
- 31098 strings out of 492970
- 601938 string characters out of 6133938
- 679039 words of memory out of 5000000
- 34703 multiletter control sequences out of 15000+600000
- 555237 words of font info for 81 fonts, out of 8000000 for 9000
+ 31253 strings out of 492970
+ 605065 string characters out of 6133938
+ 687868 words of memory out of 5000000
+ 34842 multiletter control sequences out of 15000+600000
+ 555253 words of font info for 83 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  53i,6n,126p,10434b,873s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on bookdown.pdf (12 pages).
+Output written on bookdown.pdf (51 pages).

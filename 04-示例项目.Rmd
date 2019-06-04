@@ -1,8 +1,0 @@
-# 示例项目
-
-
-这里通过链接分享一些示例项目.
-
-beamer的示例项目:
-https://cn.overleaf.com/read/tpzfjkmsfwkw
-

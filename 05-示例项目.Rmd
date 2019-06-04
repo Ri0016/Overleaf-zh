@@ -1,0 +1,9 @@
+# 示例项目 {#Overleafproject}
+
+
+这里通过链接分享一些示例项目.
+
+beamer的示例项目:
+https://cn.overleaf.com/read/tpzfjkmsfwkw
+
+每一页的标题通过引用section的label,修改section的标题,所有页面的标题会自动修改.

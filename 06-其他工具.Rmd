@@ -1,0 +1,57 @@
+# 其他工具
+
+这里介绍一些可以提高LaTeX写作效率的其他工具
+
+## 公式
+mathpix
+
+可以很方便的将图片公式转成LaTex形式,手写公式不太乱的话也是可以识别的.
+
+https://mathpix.com
+
+## 表格
+
+在LaTeX中插入表格并不是很简单的一件事,尤其是当表头需要合并单元格时.
+这里介绍一些可以提高输入表格效率的工具.
+
+### xtable包
+
+在R中进行模拟时,将结果输出至LaTeX可以利用这个包中的xtable函数.
+
+https://cran.r-project.org/web/packages/xtable/index.html
+
+```{r}
+xtable::xtable(matrix(rnorm(12),3,4))
+```
+
+这样我们直接粘贴到LaTeX中就可以了.
+
+但是,这还不够.每次都要复制粘贴仍然很麻烦,而且如果表格的行名、列名有特定的格式,并不能直接粘贴结果(macOS下可以支持选择矩形区域修改).
+
+我们可以利用LaTeX的\\input{}指令,完成更酷的操作.
+
+大致流程就是在R中将xtable的输出结果写入文本文件"tableXXXX.tex",然后在tex中需要插入表格的地方\\input{tableXXXX.tex}.
+
+这样我们每次要把R新计算出来的表格更新到tex中,只需要重新编译一次即可.
+
+关于复杂表头的设计,可以参考这个回答:
+
+https://stackoverflow.com/questions/15036754/r-package-xtable-how-to-create-a-latextable-with-multiple-rows-and-columns-from
+
+可以从:
+https://github.com/Ri0016/table-update-tex
+下载示例程序.
+
+
+### Excel2LaTeX
+
+可以在Excel中合并好单元格,导出tex的表格.
+
+https://github.com/krlmlr/Excel2LaTeX/releases
+
+### LaTeX中合并单元格
+
+不知道tex合并单元格的命令可以在这个页面生成表格的tex代码:
+
+http://www.tablesgenerator.com/#
+
