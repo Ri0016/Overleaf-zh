@@ -172,7 +172,7 @@
 
 \title{Overleaf功能介绍}
 \author{wang}
-\date{2019-06-04}
+\date{2019-09-03}
 
 \begin{document}
 \maketitle
@@ -230,7 +230,7 @@ LaTeX的介绍:
 \begin{verbatim}
 ## R version 3.6.0 (2019-04-26)
 ## Platform: x86_64-apple-darwin15.6.0 (64-bit)
-## Running under: macOS Mojave 10.14.5
+## Running under: macOS Mojave 10.14.6
 ## 
 ## Matrix products: default
 ## BLAS:   /Library/Frameworks/R.framework/Versions/3.6/Resources/lib/libRblas.0.dylib
@@ -248,7 +248,7 @@ LaTeX的介绍:
 ##  [4] tools_3.6.0     htmltools_0.3.6 rstudioapi_0.10
 ##  [7] yaml_2.2.0      Rcpp_1.0.1      stringi_1.4.3  
 ## [10] rmarkdown_1.13  knitr_1.23      stringr_1.4.0  
-## [13] xfun_0.7        digest_0.6.18   xtable_1.8-4   
+## [13] xfun_0.7        digest_0.6.19   xtable_1.8-4   
 ## [16] evaluate_0.14
 \end{verbatim}
 
@@ -645,16 +645,21 @@ beamer的示例项目:
 这里介绍一些可以提高LaTeX写作效率的其他工具
 
 \hypertarget{section-22}{%
-\section{公式}\label{section-22}}
+\section{符号}\label{section-22}}
 
-mathpix
+在我们初学LaTeX时,经常会遇到不知道怎么输入的符号.
+\href{http://detexify.kirelabs.org/classify.html}{Detexify}
+这个网站可以手写输入符号,给出所有可能的结果.
+
+\hypertarget{section-23}{%
+\section{公式}\label{section-23}}
+
+\href{https://mathpix.com}{mathpix}(目前已收费,免费账户每月限50次)
 
 可以很方便的将图片公式转成LaTex形式,手写公式不太乱的话也是可以识别的.
 
-\url{https://mathpix.com}
-
-\hypertarget{section-23}{%
-\section{表格}\label{section-23}}
+\hypertarget{section-24}{%
+\section{表格}\label{section-24}}
 
 在LaTeX中插入表格并不是很简单的一件事,尤其是当表头需要合并单元格时.
 这里介绍一些可以提高输入表格效率的工具.
@@ -674,16 +679,16 @@ mathpix
 
 \begin{verbatim}
 ## % latex table generated in R 3.6.0 by xtable 1.8-4 package
-## % Tue Jun  4 15:28:46 2019
+## % Tue Sep  3 19:15:42 2019
 ## \begin{table}[ht]
 ## \centering
 ## \begin{tabular}{rrrrr}
 ##   \hline
 ##  & 1 & 2 & 3 & 4 \\ 
 ##   \hline
-## 1 & 0.48 & 0.75 & -0.18 & -0.66 \\ 
-##   2 & 0.82 & -1.23 & 0.02 & -0.15 \\ 
-##   3 & -0.09 & -0.49 & 0.95 & -0.46 \\ 
+## 1 & 0.12 & 0.32 & 0.40 & 1.39 \\ 
+##   2 & -2.36 & -0.38 & -0.90 & -0.35 \\ 
+##   3 & 0.09 & 1.17 & -1.45 & -0.71 \\ 
 ##    \hline
 ## \end{tabular}
 ## \end{table}
@@ -691,7 +696,7 @@ mathpix
 
 这样我们直接粘贴到LaTeX中就可以了.
 
-但是,这还不够.每次都要复制粘贴仍然很麻烦,而且如果表格的行名、列名有特定的格式,并不能直接粘贴结果(macOS下可以支持选择矩形区域修改).
+但是,这还不够.每次都要复制粘贴仍然很麻烦,而且如果表格的行名、列名有特定的格式,并不能直接粘贴结果(可以利用选择矩形区域修改).
 
 我们可以利用LaTeX的\textbackslash{}input\{\}指令,完成更酷的操作.
 
@@ -724,8 +729,8 @@ mathpix
 \hypertarget{template}{%
 \chapter{一些模板}\label{template}}
 
-\hypertarget{section-24}{%
-\section{学位论文模板}\label{section-24}}
+\hypertarget{section-25}{%
+\section{学位论文模板}\label{section-25}}
 
 \url{https://github.com/ustctug/awesome-latex-thesis}
 
